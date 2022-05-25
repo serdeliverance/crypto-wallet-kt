@@ -1,7 +1,5 @@
 package com.serdeliverance.cryptowallet.repositories;
 
-import com.serdeliverance.cryptowallet.domain.OperationType;
-import com.serdeliverance.cryptowallet.domain.Transaction;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.jdbc.core.JdbcTemplate;

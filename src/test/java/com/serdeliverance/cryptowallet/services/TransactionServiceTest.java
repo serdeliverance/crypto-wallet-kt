@@ -1,7 +1,5 @@
 package com.serdeliverance.cryptowallet.services;
 
-import com.serdeliverance.cryptowallet.domain.Cryptocurrency;
-import com.serdeliverance.cryptowallet.domain.Transaction;
 import com.serdeliverance.cryptowallet.dto.TransactionDTO;
 import com.serdeliverance.cryptowallet.exceptions.InvalidOperationException;
 import com.serdeliverance.cryptowallet.exceptions.ResourceNotFoundException;

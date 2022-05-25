@@ -1,7 +1,5 @@
 package com.serdeliverance.cryptowallet.services;
 
-import com.serdeliverance.cryptowallet.domain.Cryptocurrency;
-import com.serdeliverance.cryptowallet.domain.Transaction;
 import com.serdeliverance.cryptowallet.dto.CurrencyQuoteDTO;
 import com.serdeliverance.cryptowallet.dto.CurrencyTotalDTO;
 import com.serdeliverance.cryptowallet.dto.PorfolioDTO;
