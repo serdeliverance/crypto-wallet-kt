@@ -1,6 +1,6 @@
 package com.serdeliverance.cryptowallet.application.port.out
 
-import com.serdeliverance.cryptowallet.domain.User
+import com.serdeliverance.cryptowallet.v2.domain.User
 
 interface UserRepositoryPort {
 

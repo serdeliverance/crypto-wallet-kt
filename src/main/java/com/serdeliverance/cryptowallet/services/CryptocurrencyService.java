@@ -1,6 +1,7 @@
 package com.serdeliverance.cryptowallet.services;
 
 import com.serdeliverance.cryptowallet.clients.CoinmarketCapClient;
+import com.serdeliverance.cryptowallet.domain.Cryptocurrency;
 import com.serdeliverance.cryptowallet.dto.CurrencyQuoteDTO;
 import com.serdeliverance.cryptowallet.exceptions.ResourceNotFoundException;
 import com.serdeliverance.cryptowallet.repositories.CryptocurrencyRepository;

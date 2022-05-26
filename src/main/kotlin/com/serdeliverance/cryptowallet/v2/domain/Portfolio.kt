@@ -1,4 +1,4 @@
-package com.serdeliverance.cryptowallet.domain
+package com.serdeliverance.cryptowallet.v2.domain
 
 import java.math.BigDecimal
 import java.time.LocalDateTime

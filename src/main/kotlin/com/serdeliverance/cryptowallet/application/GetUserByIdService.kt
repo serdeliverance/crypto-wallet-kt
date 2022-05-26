@@ -2,7 +2,7 @@ package com.serdeliverance.cryptowallet.application
 
 import com.serdeliverance.cryptowallet.application.port.`in`.GetUserByIdUseCase
 import com.serdeliverance.cryptowallet.application.port.out.UserRepositoryPort
-import com.serdeliverance.cryptowallet.domain.User
+import com.serdeliverance.cryptowallet.v2.domain.User
 
 class GetUserByIdService(private val userRepository: UserRepositoryPort) : GetUserByIdUseCase {
 
