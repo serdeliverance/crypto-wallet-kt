@@ -33,7 +33,7 @@ public class UserService {
     }
 
     public void update(User user) {
-        Integer userId = user.getId().get();
+        Integer userId = user.getId();
         if (this.exists(userId)) {
             userRepository.update(user);
         } else throw new ResourceNotFoundException("user: " + userId);
