@@ -4,8 +4,10 @@ import com.serdeliverance.cryptowallet.application.port.out.UserRepositoryPort
 import com.serdeliverance.cryptowallet.v2.domain.User
 import com.serdeliverance.cryptowallet.util.OptionExtension.value
 import org.springframework.jdbc.core.JdbcTemplate
+import org.springframework.stereotype.Repository
 import java.sql.ResultSet
 
+@Repository
 class UserRepositoryImpl(private val jdbcTemplate: JdbcTemplate) : UserRepositoryPort {
 
     override fun find(id: Int): User? {
