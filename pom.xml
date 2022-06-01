@@ -90,9 +90,9 @@
 		</dependency>
 
 		<dependency>
-			<groupId>io.mockk</groupId>
-			<artifactId>mockk</artifactId>
-			<version>${mockk.version}</version>
+			<groupId>org.mockito.kotlin</groupId>
+			<artifactId>mockito-kotlin</artifactId>
+			<version>4.0.0</version>
 			<scope>test</scope>
 		</dependency>
 
