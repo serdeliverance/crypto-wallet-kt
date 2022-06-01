@@ -14,7 +14,6 @@ class UserRoute(private val getUserByIdUseCase: GetUserByIdUseCase) {
 
     private val LOGGER = LoggerFactory.getLogger(UserRoute::class.java)
 
-    // TODO check return type
     @GetMapping("/{id}")
     fun get(@PathVariable("id") id: Int): UserDTO? {
         LOGGER.info("Getting user with id: {}", id)
