@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository
 import java.sql.ResultSet
 
 @Repository
-class UserRepositoryImpl(private val jdbcTemplate: JdbcTemplate) : UserRepositoryPort {
+class UserPersistenceAdapter(private val jdbcTemplate: JdbcTemplate) : UserRepositoryPort {
 
     override fun find(id: Int): User? {
         return jdbcTemplate.query<User>(
