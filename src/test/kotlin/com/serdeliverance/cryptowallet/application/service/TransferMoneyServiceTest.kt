@@ -1,7 +1,7 @@
 package com.serdeliverance.cryptowallet.application.service
 
 import com.serdeliverance.cryptowallet.application.port.`in`.DepositUseCase
-import com.serdeliverance.cryptowallet.application.port.`in`.WithDrawalUseCase
+import com.serdeliverance.cryptowallet.application.port.`in`.WithdrawalUseCase
 import com.serdeliverance.cryptowallet.application.port.out.LoadBalancePort
 import com.serdeliverance.cryptowallet.domain.Cryptocurrency
 import com.serdeliverance.cryptowallet.domain.OperationType
@@ -19,7 +19,7 @@ import java.time.LocalDateTime
 object TransferMoneyServiceTest : Spek({
 
     val loadBalancePort = mock<LoadBalancePort>()
-    val withdrawalUserCase = mock<WithDrawalUseCase>()
+    val withdrawalUserCase = mock<WithdrawalUseCase>()
     val depositUseCase = mock<DepositUseCase>()
 
     val subject = TransferMoneyService(loadBalancePort, withdrawalUserCase, depositUseCase)
