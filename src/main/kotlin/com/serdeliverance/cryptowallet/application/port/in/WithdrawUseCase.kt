@@ -3,6 +3,6 @@ package com.serdeliverance.cryptowallet.application.port.`in`
 import com.serdeliverance.cryptowallet.v2.domain.Transaction
 import java.math.BigDecimal
 
-interface WithdrawalUseCase {
-    fun withdraw(id: Int, amount: BigDecimal): Transaction
+interface WithdrawUseCase {
+    fun withdraw(id: Int, cryptocurrencyId: Int, amount: BigDecimal): Transaction
 }

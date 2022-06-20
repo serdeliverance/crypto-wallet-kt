@@ -4,5 +4,5 @@ import com.serdeliverance.cryptowallet.v2.domain.Transaction
 import java.math.BigDecimal
 
 interface DepositUseCase {
-    fun deposit(id: Int, amount: BigDecimal): Transaction
+    fun deposit(id: Int, cryptocurrencyId: Int, amount: BigDecimal): Transaction
 }

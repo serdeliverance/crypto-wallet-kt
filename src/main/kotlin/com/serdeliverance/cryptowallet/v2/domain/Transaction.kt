@@ -1,6 +1,5 @@
 package com.serdeliverance.cryptowallet.v2.domain
 
-import com.serdeliverance.cryptowallet.domain.OperationType
 import java.math.BigDecimal
 import java.time.LocalDateTime
 
